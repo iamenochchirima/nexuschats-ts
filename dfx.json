@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "nexuschats": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle nexuschats",
+            "wasm": ".azle/nexuschats/nexuschats.wasm",
+            "gzip": true
+        }
+    }
+}
+
